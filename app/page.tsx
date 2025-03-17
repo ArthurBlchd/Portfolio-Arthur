@@ -197,10 +197,10 @@ export default function Home() {
                   <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
                 </Link>
                 <Button 
-                  size="sm md:lg" 
-                  className="rounded-full bg-gradient-to-br from-[#a8d325]/10 to-[#7a9c1b]/10 text-black hover:bg-gradient-to-br hover:from-[#a8d325]/20 hover:to-[#7a9c1b]/20 text-xs md:text-base px-4 py-2 md:px-6 md:py-3"
-                  onClick={() => window.location.href = "mailto:arthurbld49@gmail.com"} // Replace with your email
-                >
+  size="sm" // Taille fixe, choisie parmi les valeurs autorisées
+  className="rounded-full bg-gradient-to-br from-[#a8d325]/10 to-[#7a9c1b]/10 text-black hover:bg-gradient-to-br hover:from-[#a8d325]/20 hover:to-[#7a9c1b]/20 text-xs md:text-base px-4 py-2 md:px-6 md:py-3 md:scale-125" // Ajuste la taille responsive ici
+  onClick={() => window.location.href = "mailto:arthurbld49@gmail.com"}
+>
                   Contact Me <Mail className="ml-1 h-3 w-3 md:h-4 md:w-4" />
                 </Button>
               </div>
